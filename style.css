@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;400;700&family=Arvo:wght@400;700&family=Nunito+Sans:wght@200;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+/* section1 */
+
+.main{
+    display: flex;
+    outline: 2px solid rgba(77, 74, 141, 0.2);
+    box-shadow: 0 0 10px rgba(16, 17, 51, 0.304);
+    flex-flow: row wrap;
+    overflow: hidden;
+    border-radius: 10px;
+   max-width: 100%;
+}
+
+.poster{
+    width:400px;
+}
+
+/* section-2 */
+
+.side2{
+    display: flex;   
+}
+.cover{
+    width:400px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 10px;
+}
+.logo{
+   font-weight: bold;
+   color: #ECA061;
+   font-size:35px;
+   text-align: center;
+}
+.cover h1{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+.input .input-a{
+    padding: 5px 0px;
+    margin: 15px;
+    background: #F6EDD8;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    border-radius: 10px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign{
+    text-align: center;
+    font-size: 18px;
+}
+.conditions{
+    margin: 15px;
+    max-width: 90%;
+    line-height: 1.6rem;
+    
+}
+ 
+.sign-up{
+    text-decoration: none;
+    color: rgb(66, 66, 176);
+    /* text-align: center; */
+}
+span .company{
+    color:  #ECA061;
+    position: relative;
+    left: 20px;
+    
+}
+
+
+/* media queries foer mobile */
+
+
+
+@media screen and(max-width:768px){
+
+   .main{
+    max-width: 100%;
+   }
+   .side2{
+    margin: 20px;
+   }
+    
+}
+@media screen and(max-width:1060px){
+   .main{
+        flex-direction: column;
+   }
+}
